@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KotlinPractice</string>
+    <string name="hello">Hello</string>
+    <string name="world">World</string>
+    <string name="button">Button</string>
+    <string-array name="hoges">
+        <item>hoge1</item>
+        <item>hoge2</item>
+        <item>hoge3</item>
+        <item>hoge4</item>
+        <item>hoge5</item>
+    </string-array>
+    <string name="hello_fragment">Hello fragment</string>
+    <string name="check_string_change">The text was changed</string>
+</resources>
