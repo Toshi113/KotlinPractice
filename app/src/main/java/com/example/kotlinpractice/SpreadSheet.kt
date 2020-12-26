@@ -2,6 +2,7 @@ package com.example.kotlinpractice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory.getDefaultInstance
@@ -88,12 +89,13 @@ class SpreadSheet : AppCompatActivity() {
         val values =
             response.getValues()
         if (values == null || values.isEmpty()) {
-            println("No data found.")
+            //println("No data found.")
         } else {
-            println("Name, Major")
+            //println("Name, Major")
             for (row in values) {
                 // Print columns A and E, which correspond to indices 0 and 4.
-                System.out.printf("%s, %s\n", row[0], row[4])
+                //System.out.printf("%s, %s\n", row[0], row[4])
+                Log.i("INFORMATION",row[0].toString())
             }
         }
     }
